@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Press F.exe" version="1.0.0.7" publicKeyToken="6004c184bf8a2eb9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Press F" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Press F.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Press F.exe" size="77720">
+      <assemblyIdentity name="Press F" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ahh4m2QpIcSePviQp4zmcFgkTIXQbGvCI7F+ZoGpoIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsInput.dll" size="22528">
+      <assemblyIdentity name="WindowsInput" version="1.0.4.0" publicKeyToken="9B287F7DC5073CAD" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gRENRCVjl/DzxXKiDKlLtMZp5d6J+TSKutJj+9gcVLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Press F.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\joshz" issuerKeyHash="8f0908b7c57dc45a2682cfea5aa947fdef81ca90" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ioPPwOxK/GTUHDxm8GvNXkzBAnwrRSqlcx96s6rnPW4=</DigestValue></Reference></SignedInfo><SignatureValue>HMWuRHFhcWD2TNcmeDWIO4f0hHV9+Cd/Yabz94BrjIYPXOS31VGlZxHCJOGMyX9ZqHol8RpmVeoc/eHXPKYwNiZP1ij0TfRr916F14AZfYez+UbzHrbqfGx4nYd/8SqRnGM5sn9bt8w0UguJRVaqaNNqAMYYuk93DLLoyzcHVOo=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>+nGrt3f826j3ldlsBXr4aCyys/ibrud478Rx+4Ctb4O6hsAu0A4nvV9G9WR7Or7IwWLyoDsB/npuxzq6c+wtUR2d6zrz3G6xZzdJbzeYwLHKdNQHHbdo2g5UtXFSVgMwSne+Z9AFiMwD3HWzG/o2DWyDIxTDOisg5PD4ZDEK2nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6e3de7aab37a1f73a52a452b7c02c14c5ecd6bf0663c1cd464fc4aecc0cf838a" Description="" Url=""><as:assemblyIdentity name="Press F.exe" version="1.0.0.7" publicKeyToken="6004c184bf8a2eb9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\joshz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>DNkSYWMSnF/Ho6Ofc8UEoJbmnoQvyJd6avxVn1D2hsE=</DigestValue></Reference></SignedInfo><SignatureValue>bGS8Giqv6MYGlgSYE+0WiJLhmKYxi1k1aPljFjqlnNpZ4O0urZLEVK4GH9t3+WkEuNAMVJh0OdOm8OMlQawzBN7YNFcCQSgaE9mRiawwmeRKfzCUcIemXDBtCabDkXow+2+a5XZG+0QtHMdzU9X7Xao2vM/OCXTGoG/P7wm7Q5I=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>+nGrt3f826j3ldlsBXr4aCyys/ibrud478Rx+4Ctb4O6hsAu0A4nvV9G9WR7Or7IwWLyoDsB/npuxzq6c+wtUR2d6zrz3G6xZzdJbzeYwLHKdNQHHbdo2g5UtXFSVgMwSne+Z9AFiMwD3HWzG/o2DWyDIxTDOisg5PD4ZDEK2nk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQOypHDNRTV75H9mJg1clJMTANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIATQBTAEkAXABqAG8AcwBoAHowHhcNMjQwMTI0MDEyMjIzWhcNMjUwMTIzMDcyMjIzWjAdMRswGQYDVQQDHhIATQBTAEkAXABqAG8AcwBoAHowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPpxq7d3/Nuo95XZbAV6+GgssrP4m67neO/EcfuArW+DuobALtAOJ71fRvVkezq+yMFi8qA7Af56bsc6unPsLVEdnes689xusWc3SW83mMCxynTUBx23aNoOVLVxUlYDMEp3vmfQBYjMA9x1sxv6Ng1sgyMUwzorIOTw+GQxCtp5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAuN6YiRksuBFdzw+RU69jvP1NubYD/XOM83cTUX2WECnRXEhCREyvgYfU+5UTrqpgTaqIG5EpW1WP+Vo/0udoLgBoGLOo8B6PM3laUahOJTInWIddptOxYmChT+IqglGxN9lOushcUjM311omiLg7aKl0p8nkWaRgGAu1uoDf//8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
