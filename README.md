@@ -22,4 +22,8 @@ Once you no longer need to hold the "F" key down, click the "Release F Key" butt
 
 ![image](https://github.com/Press-f-Dev/Press-F/assets/157921624/1fbf1d8d-4e2f-4ddf-815a-3cf75a301758)
 
-The application is completely free, but if the application has helped you and you'd like to support me I have a link to my buymeacoffee account in the top left corner of the application!  
+Quick user tip: With how Palworld reads keyboard inputs, in order for the application to work properly for you, make sure there are no items completed i.e. the "acquire" option is active. If there is an item to acquire before you run the "Hold F Key" function, your character will grab the item, but they will not start crafting/cooking. Unfortunately that's just how the game works so make sure it's clear! If you start the "Hold F Key" and the "acquire" option is active, no worries! Just click the "Release F Key" button, then acquire the item, and then click the "Hold F Key" button and you're good to go!
+
+The application is completely free, but if the application has helped you and you'd like to support me I have a link to my buymeacoffee account in the top left corner of the application! 
+
+Thank you for using Press F and good luck out there ethically (or unethically haha) catching and working those Pals!
